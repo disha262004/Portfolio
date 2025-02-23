@@ -1,7 +1,7 @@
 import React from 'react'
 function About() {
     return ( 
-        <div className="container-fluid px-5 mb-5">
+        <div className="container-fluid px-5 mb-5" id='about'>
             <div className="row px-5" style={{color:"#00000"}}>
                 <h2 className="fw-bold text-center mb-3">About Me</h2>
                 <p className=" fs-5">I am currently pursuing a Bachelors of Technology in Computer Science at the Jagannath with a CGPA of 8.0/10 . I have experince of 3 months as an Frontend Developer Intern at Metablock Technologies. My technical expertise includes Java, React.js, Node.js, and Frontend and Backend Technologies. I have contributed to several projects, like Tians Charity Website , Wanderlust - Explore the World , Symon Says Game , Zerodha - A trading platform and many more . </p>
