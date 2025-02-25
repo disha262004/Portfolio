@@ -4,10 +4,9 @@ import Navbar from './Navbar';
 import About from './About';
 import Skills from './Skills/Skills';
 import Educations from './Education/Educations';
-import Experince from './Experience/Experience';
+import Experinces from './Experience/Experiences';
 import Projects from './Projects/Projects';
 import Certifications from './Certifications/Certifications';
-import Achievements from './Achievement/Achievements';
 import Contact from './Contact';
 
 function Home() {
@@ -18,10 +17,9 @@ function Home() {
         <About/>
         <Educations />
         <Skills />
-        <Experince />
+        <Experinces />
         <Projects />
         <Certifications/>
-        <Achievements/>
         <Contact/>
         </>
      );

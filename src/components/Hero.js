@@ -8,7 +8,7 @@ function Hero() {
                 <div>
                     <img src="./media/images/profile.jpg" alt="img" style={{width:"15%", borderRadius:"100%" }} />
                 </div>
-                <h2 className="mt-4 fw-bold " style={{color:"#000"}}>Hi there!</h2>
+                <h2 className="mt-4 fw-bold ">Hi there!</h2>
                 <p className="mt-2 fs-5">Aspiring <b>Full Stack Development Engineer</b></p>
             </div>
         </div>

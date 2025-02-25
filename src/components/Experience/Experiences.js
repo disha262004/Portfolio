@@ -2,7 +2,7 @@ import React from 'react'
 import Experience from './Experience';
 function Experinces() {
     return ( 
-        <div className="container mt-5 py-5" id='experience'>
+        <div className="container py-5" id='experience'>
         <h2 className="fw-bold text-center my-5">My Experience</h2>
             <Experience 
                 imageUrl="media\images\metablock.webp"

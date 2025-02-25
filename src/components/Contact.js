@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact({ imageUrl, title, certificateUrl, description }) {
   return (
-    <div className="container-fluid my-5 p-5" id="contact">
+    <div className="container-fluid p-5" id="contact">
       <h2 className="fw-bold text-center my-5">Contact Me</h2>
       <div className="row">
         <div className="col py-3">
@@ -63,11 +63,14 @@ function Contact({ imageUrl, title, certificateUrl, description }) {
               />
             </div>
             <button type="submit" className="my-3 p-2" style={{
-            border:"none",
-            backgroundColor: "pink",
+            textDecoration: "none",
+            background: "linear-gradient(90deg, #34d399, #3b82f6)",
             color: "#fff",
+            border:"none",
+            width:"18%",
             borderRadius: "50px",
-            width:"15%",
+            padding: "0.5rem 1rem",
+            fontSize: "1rem",
           }}>
               Send
             </button>

@@ -1,28 +1,14 @@
 import React from "react";
-function Experience({ imageUrl, name, position, period, percentage }) {
+import "./Experience.css";
+
+function Experience({ imageUrl, name, position, period }) {
   return (
-    <div
-      className="container row m-3 p-3"
-      style={{ backgroundColor: "#e5e7eb", borderRadius: "10px" }}
-    >
-      <div className="col-1 my-1 p-3">
-        <img
-          src={imageUrl}
-          alt="logo"
-          style={{ borderRadius: "100%", width: "100%" }}
-        />
+    <div className="experience-container container row m-3 p-3">
+      <div className="experience-image col-1 my-1 p-3">
+        <img src={imageUrl} alt="logo" />
       </div>
       <div className="col-11">
-        <h4
-          className="fw-bold"
-          style={{
-            background: "linear-gradient(90deg, #34d399, #3b82f6)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          {name}
-        </h4>
+        <h4 className="experience-name">{name}</h4>
         <h5>{position}</h5>
         <p className="text-muted">{period}</p>
       </div>

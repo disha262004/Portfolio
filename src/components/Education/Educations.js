@@ -15,8 +15,8 @@ function Educations() {
       <Education 
         imageUrl="/media/images/kv.jpeg"
         name="Kendriya Vidyalaya No.1 Neemuch (M.P)" 
-        course="Senior Secondary Education (Class 12)" 
-        period="Graduated: 2022"
+        course="Senior Secondary Education" 
+        period="2021 - 2022"
         percentage="Percentage: 83.4%"
       />
     </div>
